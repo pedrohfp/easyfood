@@ -1,9 +1,6 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
-
 apply plugin: 'jacoco'
 
 android {
@@ -27,6 +24,7 @@ android {
     }
     lintOptions {
         abortOnError true
+        warningsAsErrors true
     }
     testOptions {
         unitTests.all {
