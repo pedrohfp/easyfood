@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1056144597308",
+    "firebase_url": "https://easyfood-783b1.firebaseio.com",
+    "project_id": "easyfood-783b1",
+    "storage_bucket": "easyfood-783b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056144597308:android:9dc689477a199c28",
+        "android_client_info": {
+          "package_name": "com.br.easyfooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056144597308-om7g3ssmsk09b5p0o8g76ei286umt2bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2BNCZCyX76gmqC3U2yGhXX0J7NlGXow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

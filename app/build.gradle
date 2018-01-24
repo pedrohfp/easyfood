@@ -85,3 +85,5 @@ task ktlintFormat(type: JavaExec, group: "formatting") {
     main = "com.github.shyiko.ktlint.Main"
     args "-F", "src/**/*.kt"
 }
+
+apply plugin: 'com.google.gms.google-services'
