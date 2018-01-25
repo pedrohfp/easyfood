@@ -44,6 +44,7 @@ configurations {
 ext{
     support_version = "27.0.2"
     firebase_version = "11.8.0"
+    arch_version = "1.1.0"
 }
 
 dependencies {
@@ -54,6 +55,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation "com.google.firebase:firebase-perf:$firebase_version"
     implementation "com.google.firebase:firebase-core:$firebase_version"
+    implementation "android.arch.lifecycle:extensions:$arch_version"
     implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
         transitive = true
     }
@@ -64,6 +66,7 @@ dependencies {
 
     ktlint "com.github.shyiko:ktlint:0.15.0"
 
+    annotationProcessor "android.arch.lifecycle:compiler:$arch_version"
 
 }
 
