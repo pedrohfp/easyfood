@@ -1,7 +1,8 @@
-package com.br.easyfooddelivery
+package com.br.easyfooddelivery.ui.login
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.br.easyfooddelivery.R
 
 class MainActivity : AppCompatActivity() {
 
