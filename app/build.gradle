@@ -45,6 +45,8 @@ ext{
     support_version = "27.0.2"
     firebase_version = "11.8.0"
     arch_version = "1.1.0"
+    okhttp_version = "3.9.1"
+    retrofit_version = "2.3.0"
 }
 
 dependencies {
@@ -56,6 +58,9 @@ dependencies {
     implementation "com.google.firebase:firebase-perf:$firebase_version"
     implementation "com.google.firebase:firebase-core:$firebase_version"
     implementation "android.arch.lifecycle:extensions:$arch_version"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
     implementation 'com.github.salomonbrys.kodein:kodein:4.1.0'
     implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
         transitive = true
