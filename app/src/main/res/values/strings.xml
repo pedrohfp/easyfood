@@ -2,4 +2,6 @@
     <string name="app_name">easyfood</string>
     <string name="easyfood">Easyfood</string>
     <string name="subtitle_marketing">Você cheio, sempre!</string>
+    <string name="facebook_app_id">206886353200477</string>
+    <string name="fb_login_protocol_scheme">fb206886353200477</string>
 </resources>
